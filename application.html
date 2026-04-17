@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharathiar University - Application Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <img src="images/bu-logo.png" alt="Bharathiar University logo" class="site-logo">
+      <div>
+        <h1>Bharathiar University</h1>
+        <p>Knowledge • Innovation • Excellence</p>
+      </div>
+    </div>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav class="navbar" id="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="admission.html">Admissions</a>
+      <a href="application.html" class="active">Apply Now</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="contact.html">Contact</a>
+      <a href="chatbot.html">Chatbot</a>
+    </nav>
+  </header>
+
+  <section class="hero admission-hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h2>Online Application Form</h2>
+      <p>Fill in your details to apply for admission</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="center-heading">
+      <h2>Application Form</h2>
+      <p class="muted">Complete all required fields carefully</p>
+    </div>
+
+    <div class="course-card" style="max-width: 800px; margin: 0 auto;">
+      <form class="contact-form">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Phone Number" required>
+        <input type="date" required>
+
+        <select required style="width:100%;padding:12px 14px;border:1px solid #d1d5db;border-radius:10px;outline:none;">
+          <option value="">Select Gender</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+
+        <select required style="width:100%;padding:12px 14px;border:1px solid #d1d5db;border-radius:10px;outline:none;">
+          <option value="">Select Course</option>
+          <option>M.Sc. Computer Science</option>
+          <option>MCA</option>
+          <option>M.Com.</option>
+          <option>M.A. English</option>
+          <option>M.Sc. Mathematics</option>
+          <option>M.Sc. Physics</option>
+        </select>
+
+        <input type="text" placeholder="Previous Qualification" required>
+        <input type="text" placeholder="Percentage / CGPA" required>
+        <textarea rows="5" placeholder="Address" required></textarea>
+
+        <button type="submit" class="btn primary">Submit Application</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Bharathiar University Demo Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

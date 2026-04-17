@@ -1,0 +1,95 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+body{background:#f8fafc;color:#0f172a;line-height:1.6}
+img{max-width:100%;display:block}
+.topbar{
+  background:linear-gradient(135deg,#2563eb,#7c3aed);
+  color:white;
+  padding:18px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+.brand{display:flex;align-items:center;gap:14px}
+.site-logo{width:58px;height:58px;object-fit:contain}
+.brand h1{font-size:24px;color:white;margin-bottom:4px}
+.brand p{font-size:13px;color:#e0e7ff}
+.navbar{display:flex;gap:18px}
+.navbar a{text-decoration:none;color:white;font-weight:600;padding:8px 12px;border-radius:8px;transition:.3s}
+.navbar a:hover{
+  background:rgba(255,255,255,0.2);
+}
+.navbar a.active{
+  background:rgb(132, 149, 218);
+  color:#f8fafe;
+  font-weight:700;
+}
+.menu-btn{display:none;background:#2563eb;color:#fff;border:none;padding:8px 12px;font-size:20px;border-radius:8px;cursor:pointer}
+.hero{position:relative;min-height:58vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px;color:#fff;overflow:hidden}
+.home-hero{background:url("images/home-banner.jpg") center/cover no-repeat}
+.about-hero{background:url("images/about-campus.jpg") center/cover no-repeat}
+.courses-hero{background:url("images/courses-banner.jpg") center/cover no-repeat}
+.admission-hero{background:url("images/admission-banner.jpg") center/cover no-repeat}
+.facilities-hero{background:url("images/facilities-banner.jpg") center/cover no-repeat}
+.contact-hero{background:url("images/contact-banner.jpg") center/cover no-repeat}
+.chatbot-hero{background:url("images/chatbot-banner.jpg") center/cover no-repeat}
+.overlay{position:absolute;inset:0;background:rgba(15,23,42,.52)}
+.hero-content{position:relative;z-index:1;max-width:850px}
+.hero-content h2{font-size:42px;margin-bottom:14px;font-weight:700}
+.hero-content p{font-size:18px;margin-bottom:20px}
+.badge{display:inline-block;background:rgba(255,255,255,.15);padding:8px 14px;border-radius:20px;margin-bottom:16px;font-size:13px;font-weight:600}
+.hero-buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;padding:12px 22px;border-radius:30px;font-weight:600;transition:.3s}
+.btn.primary{background:#2563eb;color:#fff}
+.btn.secondary{background:#fff;color:#2563eb}
+.btn:hover{transform:translateY(-2px)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:40px;margin-top:-40px;position:relative;z-index:2}
+.stat-card{background:#fff;padding:24px;border-radius:14px;text-align:center;border:1px solid #e5e7eb;box-shadow:0 8px 24px rgba(15,23,42,.06)}
+.stat-card h3{color:#2563eb;font-size:28px;margin-bottom:8px}
+.section{padding:60px 40px}
+.center-heading{text-align:center;margin-bottom:30px}
+.center-heading h2,.section h2{font-size:32px;margin-bottom:10px}
+.muted{color:#64748b;text-align: justify;}
+.grid-two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.image-card img{border-radius:16px;height:100%;object-fit:cover;box-shadow:0 8px 24px rgba(15,23,42,.08)}
+.card-grid{display:grid;gap:24px}
+.card-grid.three{grid-template-columns:repeat(3,1fr)}
+.card-grid.four{grid-template-columns:repeat(4,1fr)}
+.card-grid.two{grid-template-columns:repeat(2,1fr)}
+.info-card,.course-card,.clean-card,.chatbox{background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e5e7eb;box-shadow:0 8px 24px rgba(15,23,42,.06)}
+.info-card img{height:220px;object-fit:cover}
+.card-content,.course-card,.clean-card{padding:24px}
+.course-card h3,.clean-card h3,.card-content h3{margin-bottom:10px;color:#0f172a}
+.clean-card{border-top:4px solid #2563eb;transition:.3s}
+.clean-card:hover,.course-card:hover,.info-card:hover{transform:translateY(-4px)}
+.clean-card.blue{border-top-color:#2563eb}.clean-card.green{border-top-color:#10b981}.clean-card.orange{border-top-color:#f59e0b}.clean-card.purple{border-top-color:#8b5cf6}
+.list-box{background:#fff;padding:14px 16px;margin-top:12px;border:1px solid #e5e7eb;border-left:4px solid #2563eb;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,.05)}
+.nice-list{padding-left:20px}.nice-list li{margin-bottom:10px}
+.contact-form{display:grid;gap:12px;margin-top:15px}
+.contact-form input,.contact-form textarea,.chat-input input{width:100%;padding:12px 14px;border:1px solid #d1d5db;border-radius:10px;outline:none}
+.contact-form button{border:none;cursor:pointer}
+.chatbot-container{display:flex;justify-content:center}
+.chatbox{width:100%;max-width:750px}
+.chat-header{background:#2563eb;color:#fff;padding:20px}
+.chat-body{height:350px;overflow-y:auto;padding:18px;background:#f8fafc;display:flex;flex-direction:column}
+.bot-message,.user-message{max-width:80%;padding:12px 14px;border-radius:12px;margin-bottom:12px}
+.bot-message{background:#e0ecff;color:#0f172a;align-self:flex-start}
+.user-message{background:#2563eb;color:#fff;align-self:flex-end}
+.quick-buttons{padding:15px;display:flex;flex-wrap:wrap;gap:10px;background:#fff;border-top:1px solid #e5e7eb}
+.quick-buttons button{padding:8px 14px;border:none;border-radius:20px;background:#eff6ff;color:#2563eb;cursor:pointer;font-weight:600}
+.chat-input{display:flex;gap:10px;padding:15px;border-top:1px solid #e5e7eb;background:#fff}
+.chat-input button{border:none;background:#2563eb;color:#fff;padding:12px 20px;border-radius:10px;cursor:pointer;font-weight:600}
+.footer{background:linear-gradient(135deg,#2563eb,#7c3aed);color:#fff;text-align:center;padding:20px;margin-top:30px}
+.contact-form select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  outline: none;
+  background: white;
+}
+@media (max-width:992px){.stats{grid-template-columns:repeat(2,1fr)}.card-grid.three{grid-template-columns:repeat(2,1fr)}.card-grid.four{grid-template-columns:repeat(2,1fr)}.grid-two{grid-template-columns:1fr}}
+@media (max-width:768px){.menu-btn{display:block}.navbar{display:none;flex-direction:column;width:100%;margin-top:15px}.navbar.show{display:flex}.topbar{padding:15px 20px}.section{padding:50px 20px}.stats{padding:20px}.card-grid.three,.card-grid.four,.card-grid.two{grid-template-columns:1fr}.hero-content h2{font-size:30px}.hero-content p{font-size:16px}.site-logo{width:48px;height:48px}}
