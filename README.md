@@ -26,9 +26,6 @@ The University Chatbot System is a web-based application designed to provide ins
 - CSS
 - JavaScript
 
-## Backend
-- Python (Flask)
-
 ## Database 
 - JSON (for chatbot responses)
 
