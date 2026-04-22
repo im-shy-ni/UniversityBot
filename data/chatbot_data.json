@@ -1,1 +1,584 @@
+{
+  "project": {
+    "name": "University Chatbot Knowledge Base",
+    "version": "1.0",
+    "university": "Bharathiar University",
+    "description": "A detailed JSON knowledge base for a university chatbot with long and structured responses.",
+    "last_updated_note": "Some details such as fees, admission dates, notifications, and contacts may change. Verify from the official university website when needed."
+  },
 
+  "university_profile": {
+    "name": "Bharathiar University",
+    "motto": "Educate to Elevate",
+    "location": "Maruthamalai Road, Coimbatore - 641046, Tamil Nadu, India",
+    "overview": "Bharathiar University is a public university in Coimbatore, Tamil Nadu. It serves students through university departments, affiliated colleges, research centres, and distance and online education initiatives. The university provides academic programmes, research opportunities, student facilities, and administrative services through multiple schools, departments, and support centres.",
+    "highlights": [
+      "University departments and affiliated colleges",
+      "UG, PG, research, distance, and online education opportunities",
+      "Hostel, library, transport, counselling, hospital, and other student facilities",
+      "Examination, results, certificate verification, and enquiry services",
+      "Dedicated academic, research, and student support sections"
+    ]
+  },
+
+  "official_links": {
+    "main_website": "https://b-u.ac.in",
+    "admission_portal": "https://fms.b-u.ac.in/admission",
+    "distance_education_portal": "https://sde.b-u.ac.in"
+  },
+
+  "contact_information": {
+    "main_address": "The Registrar, Bharathiar University, Maruthamalai Road, Coimbatore - 641046, Tamil Nadu, India",
+    "main_phone": [
+      "+91-422-2422222",
+      "+91-422-2422223"
+    ],
+    "registrar_email": "regr@buc.edu.in",
+    "general_enquiry_numbers": [
+      "+91-422-2422222",
+      "+91-422-2422223",
+      "+91-422-2422234",
+      "+91-422-2422272",
+      "+91-422-2422321",
+      "+91-422-2422335",
+      "+91-422-2422372",
+      "+91-422-2422435",
+      "+91-422-2428100",
+      "+91-422-2428126"
+    ],
+    "important_contacts": {
+      "controller_of_examinations": "+91-422-2428184 / 2428185",
+      "migration_degree_transcript_genuineness_certificate": "+91-422-2428183",
+      "pg_admissions_university_departments": "+91-422-2428115 / 2428116",
+      "distance_education_examinations": "+91-422-2428189 / 2428190",
+      "distance_education_admissions": "+91-422-2428216",
+      "distance_education_ug_section": "+91-422-2428206",
+      "distance_education_pg_section": "+91-422-2428206",
+      "distance_education_mba_section": "+91-422-2428212",
+      "distance_education_mca_section": "+91-422-2428212",
+      "university_library": "+91-422-2428236",
+      "public_relations_officer": "+91-422-2428123",
+      "finance_office": "+91-422-2428135"
+    }
+  },
+
+  "admission_information": {
+    "general_admission_overview": "Admissions are handled through the official university portal. Applicants should read the prospectus, programme information, eligibility conditions, and fee details before applying. The candidate is expected to complete the online application form carefully and upload all required information and certificates.",
+    "ug_admission": {
+      "summary": "UG admission information is available through the official university admissions section. Students should regularly check the university website for updated notifications, eligibility, schedules, and prospectus details.",
+      "what_students_should_do": [
+        "Visit the official university website",
+        "Open the UG admission section",
+        "Read eligibility and instructions carefully",
+        "Prepare required documents",
+        "Submit the application through the official process"
+      ]
+    },
+    "pg_admission": {
+      "summary": "PG admission is processed through the official online admission portal. Candidates must complete the application form and follow the guidelines published by the university.",
+      "registration_fee_general": "Rs. 400 per application",
+      "registration_fee_sc_st": "Rs. 200 per application, with community certificate copy required",
+      "application_note": "The online application form should be completed in all aspects before submission."
+    },
+    "research_admission": {
+      "summary": "Research admission information is available through the research admission section of the official website. Candidates who need help with online submission can contact the admission support centre.",
+      "support_contact": "0422-2428170"
+    },
+    "distance_online_education": {
+      "summary": "The Centre for Distance and Online Education, formerly the School of Distance Education, supports distance and online learners through admissions, examinations, and programme-related services.",
+      "established": "1991-1992",
+      "portal": "https://sde.b-u.ac.in"
+    }
+  },
+
+  "academics": {
+    "programmes_overview": {
+      "summary": "The university supports undergraduate, postgraduate, research, and distance/online programmes. The exact list of programmes may vary by department, affiliated college, or academic year.",
+      "common_categories": [
+        "Undergraduate programmes",
+        "Postgraduate programmes",
+        "M.Phil. and Ph.D. related research pathways where applicable",
+        "Distance and online education programmes",
+        "Certificate and value-added programmes in some units"
+      ]
+    },
+    "departments_overview": {
+      "summary": "Bharathiar University includes schools and departments across science, arts, commerce, management, technology, and interdisciplinary areas. Students should check the university website for the current department-wise programme list.",
+      "example_areas": [
+        "Computer Science",
+        "Commerce",
+        "Management",
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biological Sciences",
+        "Social Sciences",
+        "Languages",
+        "Research Centres and Specialised Units"
+      ]
+    },
+    "academic_support": {
+      "items": [
+        "Syllabus",
+        "Academic calendar",
+        "Choice Based Credit System",
+        "Scholarships and fellowships information",
+        "International students support",
+        "Placements",
+        "Alumni support",
+        "SWAYAM and other learning resources"
+      ]
+    }
+  },
+
+  "facilities": {
+    "library": {
+      "summary": "The university provides library services and digital academic resources to support teaching, learning, and research.",
+      "contact": "+91-422-2428236"
+    },
+    "hostel": {
+      "summary": "The university provides accommodation for students who come from outside Coimbatore. There are multiple hostels for students, and separate research scholar hostels for men and women are also available.",
+      "notable_point": "There are 10 hostels named after poets and family members of Bharathiar, with dedicated research scholar hostels functioning throughout the year."
+    },
+    "other_facilities": [
+      "Transport Facility",
+      "Swimming Pool",
+      "Fitness Centre",
+      "Guest Houses",
+      "University Hospital",
+      "Amenities",
+      "Counselling Centre",
+      "ICT and Internet/Website Services",
+      "Auditoriums and Halls"
+    ]
+  },
+
+  "student_services": {
+    "examinations": {
+      "summary": "Students should check the examination section for notifications, timetables, hall tickets, and examination-related announcements. Separate notifications may be published for university departments, affiliated colleges, private candidates, and distance or online education."
+    },
+    "results": {
+      "summary": "Results are published through the official university website. Students should regularly monitor the results section for department, affiliated college, and distance education result announcements."
+    },
+    "certificates": {
+      "summary": "For migration certificate, degree certificate, transcript, and certificate genuineness queries, students can contact the official certificate support number.",
+      "contact": "+91-422-2428183"
+    },
+    "placements": {
+      "summary": "Placement-related information and career support may be made available through the students section or relevant university centres. Students should watch official notices for placement drives and recruitment activities."
+    },
+    "scholarships": {
+      "summary": "Scholarships and fellowships information is generally available under the students section. Students should verify eligibility, deadlines, and supporting documents through the relevant academic or welfare section."
+    }
+  },
+
+  "rules_and_guidance": {
+    "booking_style_response_note": "The chatbot should provide clear, polite, and structured answers. When a detail may change every year, the bot should advise the user to verify it on the official website.",
+    "response_style": [
+      "Use simple and professional language",
+      "Give detailed responses for important academic questions",
+      "Mention official website for latest updates",
+      "Avoid guessing unavailable details like exact current fee for every programme unless officially provided"
+    ]
+  },
+
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "good afternoon",
+        "vanakkam"
+      ],
+      "response": "Hello and welcome to the Bharathiar University chatbot. I can help you with information about admissions, courses, departments, examinations, results, research, distance education, facilities, hostels, library services, contact details, and student support. Please type your question clearly, and I will try to guide you in a detailed and simple way."
+    },
+    {
+      "tag": "about_university",
+      "patterns": [
+        "about university",
+        "tell me about bharathiar university",
+        "university details",
+        "what is bharathiar university",
+        "university overview"
+      ],
+      "response": "Bharathiar University is a public university located on Maruthamalai Road, Coimbatore, Tamil Nadu. It supports higher education through university departments, affiliated colleges, research centres, and distance and online education. The university provides academic programmes, examination services, research opportunities, and student support facilities such as library, hostel, transport, counselling, hospital, and more. It also maintains official sections for admissions, results, syllabus, academic calendar, scholarships, placements, and student welfare."
+    },
+    {
+      "tag": "motto",
+      "patterns": [
+        "motto",
+        "what is the motto",
+        "university slogan"
+      ],
+      "response": "The motto displayed by Bharathiar University is 'Educate to Elevate'. This expresses the idea that education should uplift individuals and society through knowledge, growth, and meaningful contribution."
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the university",
+        "location",
+        "address",
+        "reach us",
+        "where is bharathiar university located"
+      ],
+      "response": "Bharathiar University is located at Maruthamalai Road, Coimbatore - 641046, Tamil Nadu, India. If you need to reach the campus, you can also refer to the official Reach Us section on the university website for updated contact guidance."
+    },
+    {
+      "tag": "main_contact",
+      "patterns": [
+        "contact number",
+        "phone number",
+        "main phone",
+        "registrar contact",
+        "general enquiry number"
+      ],
+      "response": "The main contact address is The Registrar, Bharathiar University, Maruthamalai Road, Coimbatore - 641046, Tamil Nadu, India. The main phone numbers listed by the university include +91-422-2422222 and +91-422-2422223. The Registrar email listed on the Reach Us page is regr@buc.edu.in. General enquiry board numbers are also available through the university enquiry section."
+    },
+    {
+      "tag": "admission_overview",
+      "patterns": [
+        "admission",
+        "how to apply",
+        "application process",
+        "admission process",
+        "how can i join"
+      ],
+      "response": "For admission, you should first visit the official Bharathiar University website and open the relevant admission section such as UG, PG, or Research Admission. Read the prospectus, eligibility conditions, programme details, fee information, and instructions carefully. Prepare the required certificates and complete the online application through the official university process. Always verify dates and notifications from the official website because schedules may change each academic year."
+    },
+    {
+      "tag": "ug_admission",
+      "patterns": [
+        "ug admission",
+        "undergraduate admission",
+        "bachelor admission",
+        "how to apply for ug"
+      ],
+      "response": "UG admission details are made available through the official university admissions section. You should check the UG admission page for current notifications, eligibility conditions, programme details, and instructions. In general, students should visit the official website, open the UG admission section, read the prospectus and requirements, collect the necessary documents, and complete the application through the approved process."
+    },
+    {
+      "tag": "pg_admission",
+      "patterns": [
+        "pg admission",
+        "postgraduate admission",
+        "master degree admission",
+        "how to apply for pg"
+      ],
+      "response": "PG admission is processed through the official online admission portal. The university has stated that online registration may be made through the admission portal. For PG applications, the registration fee listed on the official page is Rs. 400 per application, and for SC/ST candidates it is Rs. 200 per application with community certificate proof. Students should fill the form completely and follow the official guidelines before submitting."
+    },
+    {
+      "tag": "admission_portal",
+      "patterns": [
+        "admission portal",
+        "apply online",
+        "application link",
+        "online admission link"
+      ],
+      "response": "The official admission portal listed by Bharathiar University for admission registration is https://fms.b-u.ac.in/admission. Before applying, make sure to read the latest official instructions, eligibility criteria, and prospectus on the university website."
+    },
+    {
+      "tag": "research_admission",
+      "patterns": [
+        "research admission",
+        "phd admission",
+        "mphil admission",
+        "research application",
+        "doctoral admission"
+      ],
+      "response": "Research admission information is provided through the official research admission section. Students interested in Ph.D. or related research pathways should carefully read the regulations, eligibility conditions, and application instructions on the university website. If a candidate needs help with online submission, the university has published an admission support contact number for assistance."
+    },
+    {
+      "tag": "research_support_contact",
+      "patterns": [
+        "research support number",
+        "research admission help",
+        "phd application help"
+      ],
+      "response": "For research admission support, the official website mentions that candidates who cannot submit the application online may contact the admission support centre at 0422-2428170 for assistance."
+    },
+    {
+      "tag": "distance_education",
+      "patterns": [
+        "distance education",
+        "online education",
+        "cdoe",
+        "school of distance education",
+        "distance courses"
+      ],
+      "response": "Bharathiar University has a Centre for Distance and Online Education, known as CDOE. It was formerly the School of Distance Education and was established in 1991-1992. It supports learners through distance and online programmes, admissions, examinations, and programme-related services. More information is available through the official CDOE portal and the university website."
+    },
+    {
+      "tag": "distance_education_portal",
+      "patterns": [
+        "distance portal",
+        "cdoe portal",
+        "sde portal",
+        "distance admission link"
+      ],
+      "response": "The dedicated portal for the Centre for Distance and Online Education is https://sde.b-u.ac.in. Students should use the official university and CDOE portals for the latest programme, admission, and examination information."
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "courses",
+        "programmes offered",
+        "available courses",
+        "what courses are available",
+        "degree programmes"
+      ],
+      "response": "Bharathiar University supports undergraduate, postgraduate, research, and distance or online education programmes. The exact programme list may vary by department, school, affiliated college, and academic year. Students should check the official university programme or department pages for the latest list of courses, eligibility conditions, and admission instructions."
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "departments",
+        "schools and departments",
+        "university departments",
+        "academic departments"
+      ],
+      "response": "The university includes multiple schools and departments across science, arts, commerce, management, technology, languages, social sciences, and interdisciplinary areas. The official website provides department-wise details and programme information. If you are looking for a specific department such as Computer Science, Commerce, or Management, I can give you a general answer or you can verify the current list on the university website."
+    },
+    {
+      "tag": "computer_science_department",
+      "patterns": [
+        "computer science department",
+        "msc computer science",
+        "computer applications",
+        "cs department"
+      ],
+      "response": "For Computer Science, Computer Applications, or related programmes, you should check the relevant department or programme section on the official university website. Typically, details such as eligibility, syllabus, admissions, and department-specific announcements are made available through official academic pages. Since programme offerings can change, always use the official university source for the latest details."
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fees",
+        "fee structure",
+        "how much is the fee",
+        "course fees",
+        "application fee"
+      ],
+      "response": "Fee details depend on the programme, department, and academic year. For accurate and current fee information, students should use the official prospectus or programme-specific admission pages. If you are asking about PG application registration, the official PG admission page states a registration fee of Rs. 400 per application, and Rs. 200 per application for SC/ST candidates with supporting certificate."
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "eligibility",
+        "who can apply",
+        "admission eligibility",
+        "required qualification"
+      ],
+      "response": "Eligibility varies depending on the programme. In general, students should read the official prospectus and department-specific admission instructions carefully. Eligibility may include educational qualification, minimum marks, subject background, reservation policy, and document requirements. Please verify the exact eligibility for your chosen programme on the university website."
+    },
+    {
+      "tag": "documents_required",
+      "patterns": [
+        "documents required",
+        "required certificates",
+        "what documents should i upload",
+        "admission documents"
+      ],
+      "response": "The exact list of required documents depends on the programme and admission category, but students usually need academic mark sheets, transfer certificate, community certificate if applicable, identity details, and recent photographs. For category-based fee concession or reservation, supporting documents must be uploaded or submitted as instructed. Always read the current admission notification and prospectus for the exact document list."
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "library",
+        "library facility",
+        "university library",
+        "library contact"
+      ],
+      "response": "Bharathiar University provides library support for students and researchers, including access to academic resources and learning support services. The enquiry number listed for the University Library is +91-422-2428236. Students may check the official website for timings, digital resources, library rules, and access procedures."
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel",
+        "hostel facility",
+        "accommodation",
+        "is hostel available",
+        "student hostel"
+      ],
+      "response": "Yes, Bharathiar University provides hostel accommodation for students who come from outside Coimbatore. The official hostel page mentions that there are 10 hostels and also separate dedicated research scholar hostels for men and women that function throughout the year. Students should verify availability, hostel rules, and admission procedures through the official hostel section."
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "transport",
+        "bus facility",
+        "travel facility",
+        "campus transport"
+      ],
+      "response": "Transport Facility is listed among the official student and campus facilities of Bharathiar University. Students should check the official facilities section for the latest information regarding routes, usage rules, and availability."
+    },
+    {
+      "tag": "hospital",
+      "patterns": [
+        "hospital",
+        "medical facility",
+        "health centre",
+        "campus hospital"
+      ],
+      "response": "University Hospital is listed among the facilities available through the university. If you need the latest details about timings, services, or medical support procedures, it is best to check the official facilities section or contact the campus administration."
+    },
+    {
+      "tag": "counselling",
+      "patterns": [
+        "counselling",
+        "student counselling",
+        "mental health support",
+        "counselling centre"
+      ],
+      "response": "Bharathiar Counselling Centre is listed in the university facilities and support services. Students who need guidance or counselling support should refer to the official facilities section or approach the relevant student support office for current procedures."
+    },
+    {
+      "tag": "examinations",
+      "patterns": [
+        "examination",
+        "exam details",
+        "exam notification",
+        "exam section",
+        "timetable"
+      ],
+      "response": "Examination notifications, timetables, and related updates are generally published in the examination section of the official university website. Separate notifications may be available for university departments, affiliated colleges, private candidates, and distance education examinations. Students should regularly visit the official website to track the latest announcements."
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "results",
+        "exam results",
+        "semester result",
+        "where can i see results"
+      ],
+      "response": "Results are published through the official Bharathiar University website. Different result announcements may be issued for university departments, affiliated colleges, and distance or online education programmes. Students should use the official results section and keep their registration or roll details ready when checking results."
+    },
+    {
+      "tag": "certificates",
+      "patterns": [
+        "certificate",
+        "transcript",
+        "migration certificate",
+        "degree certificate",
+        "certificate verification"
+      ],
+      "response": "For migration certificate, degree certificate, transcript, or certificate genuineness queries, the university enquiry section lists the contact number +91-422-2428183. Students should also check the official website for application forms, fees, and process updates related to certificates and verification."
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "placements",
+        "placement support",
+        "jobs",
+        "campus placement"
+      ],
+      "response": "Placement-related support is available through the students section and relevant university centres. Students should monitor official notices, career-related announcements, and department communications for recruitment drives, training sessions, and placement opportunities."
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "scholarship",
+        "scholarships",
+        "fellowship",
+        "financial support"
+      ],
+      "response": "Scholarships and fellowships are part of the student support information available through the university website. Students should verify the latest eligibility, categories, deadlines, required certificates, and application methods through the relevant scholarship or students section."
+    },
+    {
+      "tag": "international_students",
+      "patterns": [
+        "international students",
+        "foreign students",
+        "international support"
+      ],
+      "response": "International Students Support is listed under the students section of the official university website. Students from outside India should check the official website for programme access, support services, documents, visa-related requirements, and contact procedures."
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "academic calendar",
+        "calendar",
+        "semester calendar",
+        "important dates"
+      ],
+      "response": "The university provides an academic calendar through the official website. Students should refer to it for important academic dates such as semester schedule, holidays, examination periods, and other institutional events."
+    },
+    {
+      "tag": "syllabus",
+      "patterns": [
+        "syllabus",
+        "course syllabus",
+        "curriculum",
+        "what is the syllabus"
+      ],
+      "response": "Syllabus information is provided through the official university website. Students should open the syllabus or programme-specific section to access the most recent curriculum and subject structure for their course."
+    },
+    {
+      "tag": "anti_ragging",
+      "patterns": [
+        "anti ragging",
+        "ragging complaint",
+        "student grievance",
+        "complaint cell"
+      ],
+      "response": "The university website lists support and grievance-related sections such as Anti-Ragging Cell, Internal Complaints Committee, Equal Opportunity Cell, Women Cell, SC/ST Cell, Minorities Cell, and Ombudsperson-related student grievance mechanisms. Students should use the official website to identify the correct support unit for their concern."
+    },
+    {
+      "tag": "nss_and_student_clubs",
+      "patterns": [
+        "nss",
+        "student clubs",
+        "yrc",
+        "student activities"
+      ],
+      "response": "The students section includes items such as NSS, Students Club, and YRC, indicating that activity-based student engagement and service-oriented participation are part of the campus support environment. Students should verify the latest club, service, and participation details through the official website."
+    },
+    {
+      "tag": "hostel_for_research_scholars",
+      "patterns": [
+        "research hostel",
+        "phd hostel",
+        "hostel for scholars"
+      ],
+      "response": "Yes, the official hostel page mentions dedicated research scholar hostels for both men and women. These function throughout the year, unlike some regular hostel closures during vacation periods."
+    },
+    {
+      "tag": "distance_exam_contact",
+      "patterns": [
+        "distance exam contact",
+        "sde exam number",
+        "cdoe exam phone"
+      ],
+      "response": "For distance education or related examinations, the enquiry section lists +91-422-2428189 and +91-422-2428190 as contact numbers for School of Distance Education or CPP examinations."
+    },
+    {
+      "tag": "distance_admission_contact",
+      "patterns": [
+        "distance admission contact",
+        "cdoe admission number",
+        "sde admission phone"
+      ],
+      "response": "For distance education admissions, the enquiry section lists +91-422-2428216 as the official contact number. Separate section contacts are also listed for UG, PG, MBA, and MCA support in distance education."
+    },
+    {
+      "tag": "website_help",
+      "patterns": [
+        "official website",
+        "website link",
+        "university website",
+        "where can i find official details"
+      ],
+      "response": "For the most reliable and latest information, please use the official Bharathiar University website at https://b-u.ac.in. For admission registration, use https://fms.b-u.ac.in/admission. For distance and online education, use https://sde.b-u.ac.in."
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "unknown",
+        "other",
+        "something else"
+      ],
+      "response": "I am sorry, but I may not have an exact answer for that question in my current knowledge base. Please try asking in a simpler form, or visit the official Bharathiar University website for the latest and most accurate information. You can ask me about admissions, fees, courses, departments, hostel, library, results, research, or contact details."
+    }
+  ]
+}
